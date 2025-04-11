@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Python-specific logs and cache
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+
+# Testing output
+coverage/
+htmlcov/
+.tox/
+.pytest_cache/
+.noseids
+
+# Django-specific
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Environment variables
+.env
+.env.*
+
+# Migrations (optional, depends on your use case)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+
+# Jupyter Notebooks (optional)
+.ipynb_checkpoints/
